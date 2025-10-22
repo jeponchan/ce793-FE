@@ -1,0 +1,87 @@
+# -----------------------------------------------------
+# 🔧 Standard React / Vite / Node.js ignore
+# -----------------------------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build output (React/Vite)
+dist/
+build/
+out/
+*.log
+
+# Vite and bundler cache
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Environment variables (sensitive)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage and testing
+coverage/
+__tests__/
+jest/
+
+# Editor & IDE configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.seed
+*.pid
+*.pid.lock
+
+# Archive files
+*.tgz
+*.zip
+
+# -----------------------------------------------------
+# 🧩 Optional: FastAPI / Python backend ignore
+# -----------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+venv/
+.env/
+*.db
+*.sqlite
+*.egg-info/
+instance/
+*.log
+
+# -----------------------------------------------------
+# 🧠 Optional: For Windows users (PowerShell/VSCode)
+# -----------------------------------------------------
+*.ps1
+*.cmd
+*.bat
+*.lnk
